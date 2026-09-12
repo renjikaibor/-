@@ -3,6 +3,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("com.google.devtools.ksp")
     id("kotlinx-serialization")
+    id("org.jetbrains.kotlin.plugin.compose")
 }
 
 android {
@@ -65,9 +66,6 @@ android {
         freeCompilerArgs += listOf("-Xopt-in=kotlin.RequiresOptIn")
     }
 
-    composeOptions {
-        kotlinCompilerExtensionVersion = "2.0.0"
-    }
 
     packagingOptions {
         resources {
