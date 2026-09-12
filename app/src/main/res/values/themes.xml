@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Theme -->
+    <style name="Theme.AICodeAssistant" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary -->
+        <item name="colorPrimary">@color/md_sys_color_primary</item>
+        <item name="colorPrimaryVariant">@color/md_sys_color_primary_container</item>
+        <item name="colorOnPrimary">@color/md_sys_color_on_primary</item>
+        <!-- Secondary -->
+        <item name="colorSecondary">@color/md_sys_color_secondary</item>
+        <item name="colorSecondaryVariant">@color/md_sys_color_secondary_container</item>
+        <item name="colorOnSecondary">@color/md_sys_color_on_secondary</item>
+        <!-- Tertiary -->
+        <item name="colorTertiary">@color/md_sys_color_tertiary</item>
+        <item name="colorTertiaryVariant">@color/md_sys_color_tertiary_container</item>
+        <item name="colorOnTertiary">@color/md_sys_color_on_tertiary</item>
+        <!-- Error -->
+        <item name="colorError">@color/md_sys_color_error</item>
+        <item name="colorOnError">@color/md_sys_color_on_error</item>
+        <!-- Background -->
+        <item name="colorBackground">@color/md_sys_color_background</item>
+        <item name="colorOnBackground">@color/md_sys_color_on_background</item>
+        <!-- Surface -->
+        <item name="colorSurface">@color/md_sys_color_surface</item>
+        <item name="colorOnSurface">@color/md_sys_color_on_surface</item>
+        <item name="colorSurfaceVariant">@color/md_sys_color_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/md_sys_color_on_surface_variant</item>
+        <!-- Outline -->
+        <item name="colorOutline">@color/md_sys_color_outline</item>
+        <item name="colorOutlineVariant">@color/md_sys_color_outline_variant</item>
+        <!-- Scrim -->
+        <item name="colorScrim">@color/md_sys_color_scrim</item>
+        <!-- Custom -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <!-- Splash Theme -->
+    <style name="Theme.AICodeAssistant.Splash" parent="Theme.AICodeAssistant">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- Dialog Theme -->
+    <style name="Theme.AICodeAssistant.Dialog" parent="Theme.Material3.DayNight.Dialog">
+        <item name="colorPrimary">@color/md_sys_color_primary</item>
+        <item name="colorOnPrimary">@color/md_sys_color_on_primary</item>
+        <item name="colorSurface">@color/md_sys_color_surface</item>
+        <item name="colorOnSurface">@color/md_sys_color_on_surface</item>
+    </style>
+
+    <!-- Bottom Sheet Theme -->
+    <style name="Theme.AICodeAssistant.BottomSheet" parent="Theme.Material3.DayNight.BottomSheetDialog">
+        <item name="colorSurface">@color/md_sys_color_surface</item>
+        <item name="colorOnSurface">@color/md_sys_color_on_surface</item>
+        <item name="bottomSheetStyle">@style/Widget.AICodeAssistant.BottomSheet</item>
+    </style>
+
+    <style name="Widget.AICodeAssistant.BottomSheet" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.AICodeAssistant.BottomSheet</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.AICodeAssistant.BottomSheet" parent="">
+        <item name="cornerFamilyTopLeft">rounded</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerSizeTopRight">16dp</item>
+    </style>
+</resources>

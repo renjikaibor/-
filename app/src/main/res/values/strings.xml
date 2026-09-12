@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">AI Code Assistant</string>
+    <string name="app_name_short">AI Code</string>
+
+    <!-- Navigation -->
+    <string name="nav_chat">聊天</string>
+    <string name="nav_code">代码</string>
+    <string name="nav_tools">工具</string>
+    <string name="nav_settings">设置</string>
+
+    <!-- Chat -->
+    <string name="chat_placeholder">输入消息…</string>
+    <string name="chat_send">发送</string>
+    <string name="chat_stop">停止</string>
+    <string name="chat_model">模型</string>
+    <string name="chat_new">新对话</string>
+    <string name="chat_history">历史记录</string>
+    <string name="chat_clear">清空对话</string>
+    <string name="chat_copy">复制</string>
+    <string name="chat_copy_code">复制代码</string>
+    <string name="chat_regenerate">重新生成</string>
+    <string name="chat_thinking">思考中…</string>
+    <string name="chat_streaming">正在生成…</string>
+    <string name="chat_error">发送失败，请重试</string>
+    <string name="chat_empty">开始新的对话吧</string>
+    <string name="chat_attach_image">添加图片</string>
+    <string name="chat_image_uploading">上传图片中…</string>
+    <string name="chat_tool_calling">正在调用工具…</string>
+    <string name="chat_permission_request">应用请求权限</string>
+
+    <!-- Code Editor -->
+    <string name="code_new_file">新建文件</string>
+    <string name="code_open_file">打开文件</string>
+    <string name="code_save_file">保存文件</string>
+    <string name="code_run">运行</string>
+    <string name="code_stop">停止</string>
+    <string name="code_terminal">终端</string>
+    <string name="code_files">文件</string>
+    <string name="code_language">语言</string>
+    <string name="code_python">Python</string>
+    <string name="code_javascript">JavaScript</string>
+    <string name="code_typescript">TypeScript</string>
+    <string name="code_html">HTML</string>
+    <string name="code_css">CSS</string>
+    <string name="code_json">JSON</string>
+    <string name="code_markdown">Markdown</string>
+    <string name="code_kotlin">Kotlin</string>
+    <string name="code_java">Java</string>
+    <string name="code_cpp">C++</string>
+    <string name="code_rust">Rust</string>
+    <string name="code_go">Go</string>
+    <string name="code_shell">Shell</string>
+    <string name="code_output">输出</string>
+    <string name="code_error">错误</string>
+    <string name="code_running">运行中…</string>
+    <string name="code_completed">运行完成</string>
+    <string name="code_failed">运行失败</string>
+    <string name="code_no_file">未打开文件</string>
+    <string name="code_unsaved_changes">有未保存的更改</string>
+    <string name="code_file_saved">文件已保存</string>
+    <string name="code_create_folder">新建文件夹</string>
+    <string name="code_rename">重命名</string>
+    <string name="code_delete">删除</string>
+
+    <!-- Tools -->
+    <string name="tools_installed">已安装工具</string>
+    <string name="tools_available">可用工具</string>
+    <string name="tools_install">安装</string>
+    <string name="tools_uninstall">卸载</string>
+    <string name="tools_run">运行</string>
+    <string name="tools_name">名称</string>
+    <string name="tools_version">版本</string>
+    <string name="tools_description">描述</string>
+    <string name="tools_calls">调用次数</string>
+    <string name="tools_logs">调用日志</string>
+    <string name="tools_install_confirm">确定要安装此工具吗？</string>
+    <string name="tools_uninstall_confirm">确定要卸载此工具吗？此操作不可撤销。</string>
+    <string name="tools_installed_success">工具安装成功</string>
+    <string name="tools_uninstalled_success">工具卸载成功</string>
+    <string name="tools_install_failed">工具安装失败</string>
+    <string name="tools_not_installed">暂无已安装工具</string>
+    <string name="tools_permission_required">需要权限</string>
+
+    <!-- Settings -->
+    <string name="settings_models">模型管理</string>
+    <string name="settings_builtin_models">内置模型</string>
+    <string name="settings_custom_models">自定义模型</string>
+    <string name="settings_add_model">添加模型</string>
+    <string name="settings_edit_model">编辑模型</string>
+    <string name="settings_delete_model">删除模型</string>
+    <string name="settings_model_name">模型名称</string>
+    <string name="settings_base_url">Base URL</string>
+    <string name="settings_api_key">API Key</string>
+    <string name="settings_max_tokens">Max Tokens</string>
+    <string name="settings_temperature">Temperature</string>
+    <string name="settings_top_p">Top P</string>
+    <string name="settings_stream">流式输出</string>
+    <string name="settings_vision">支持视觉</string>
+    <string name="settings_thinking">开启思考</string>
+    <string name="settings_default_model">设为默认</string>
+    <string name="settings_permissions">权限管理</string>
+    <string name="settings_search_api">搜索 API</string>
+    <string name="settings_serper_key">Serper API Key</string>
+    <string name="settings_bing_key">Bing API Key</string>
+    <string name="settings_about">关于</string>
+    <string name="settings_version">版本</string>
+    <string name="settings_privacy">隐私政策</string>
+    <string name="settings_github">GitHub</string>
+    <string name="settings_feedback">反馈建议</string>
+    <string name="settings_data">数据管理</string>
+    <string name="settings_clear_cache">清理缓存</string>
+    <string name="settings_export_data">导出数据</string>
+    <string name="settings_import_data">导入数据</string>
+
+    <!-- Permissions -->
+    <string name="permission_camera">相机</string>
+    <string name="permission_microphone">麦克风</string>
+    <string name="permission_location">定位</string>
+    <string name="permission_contacts">通讯录</string>
+    <string name="permission_sms">短信</string>
+    <string name="permission_storage">存储</string>
+    <string name="permission_notifications">通知</string>
+    <string name="permission_granted">已授权</string>
+    <string name="permission_denied">已拒绝</string>
+    <string name="permission_request">请求权限</string>
+    <string name="permission_rationale_camera">需要相机权限以拍照或扫描</string>
+    <string name="permission_rationale_microphone">需要麦克风权限以录音</string>
+    <string name="permission_rationale_location">需要定位权限以获取位置</string>
+    <string name="permission_rationale_contacts">需要通讯录权限以搜索联系人</string>
+    <string name="permission_rationale_sms">需要短信权限以发送/读取短信</string>
+    <string name="permission_rationale_storage">需要存储权限以读写文件</string>
+    <string name="permission_rationale_notifications">需要通知权限以发送通知</string>
+
+    <!-- Search -->
+    <string name="search_query">搜索关键词</string>
+    <string name="search_results">搜索结果</string>
+    <string name="search_no_results">无搜索结果</string>
+    <string name="search_loading">搜索中…</string>
+    <string name="search_error">搜索失败</string>
+
+    <!-- Model Names -->
+    <string name="model_kimi_k3">Kimi K3 (视觉)</string>
+    <string name="model_deepseek_v4_pro">DeepSeek V4 Pro</string>
+    <string name="model_deepseek_v4_flash">DeepSeek V4 Flash</string>
+    <string name="model_nemotron_3_super">Nemotron 3 Super 120B</string>
+    <string name="model_nemotron_3_ultra">Nemotron 3 Ultra 550B</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_confirm">确认</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_delete">删除</string>
+    <string name="dialog_save">保存</string>
+    <string name="dialog_unsaved_title">未保存的更改</string>
+    <string name="dialog_unsaved_message">有未保存的更改，是否保存？</string>
+
+    <!-- Errors -->
+    <string name="error_network">网络错误，请检查连接</string>
+    <string name="error_api_key">API Key 无效或缺失</string>
+    <string name="error_model_unavailable">模型不可用</string>
+    <string name="error_permission_denied">权限被拒绝</string>
+    <string name="error_file_not_found">文件不存在</string>
+    <string name="error_unknown">未知错误</string>
+
+    <!-- Accessibility -->
+    <string name="a11y_chat_message">聊天消息</string>
+    <string name="a11y_user_message">用户消息</string>
+    <string name="a11y_ai_message">AI 回复</string>
+    <string name="a11y_code_editor">代码编辑器</string>
+    <string name="a11y_file_tree">文件树</string>
+    <string name="a11y_terminal">终端输出</string>
+    <string name="a11y_tool_card">工具卡片</string>
+    <string name="a11y_model_selector">模型选择器</string>
+</resources>
